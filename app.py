@@ -33,7 +33,7 @@ ctk.set_appearance_mode("system")  # Default to system appearance
 ctk.set_default_color_theme("dark-blue")  # You can try "dark-blue" for a more elegant look
 
 app = ctk.CTk()
-app.title("CuacaNih")
+app.title("CuacaNih. ⛅")
 app.geometry("500x700")  # Slightly taller for better spacing
 app.resizable(False, False)
 
@@ -193,7 +193,7 @@ header_frame = ctk.CTkFrame(main_container, corner_radius=15,
                            height=80)
 header_frame.pack(fill="x", pady=(0, 15))
 
-title = ctk.CTkLabel(header_frame, text="CuacaNih⛅", 
+title = ctk.CTkLabel(header_frame, text="CuacaNih ⛅", 
                     font=ctk.CTkFont(size=28, weight="bold", family="Segoe UI"),
                     text_color=("#2a5885", "#e6f2ff"))
 title.pack(side="left", padx=20, pady=10)
