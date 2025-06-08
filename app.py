@@ -33,7 +33,7 @@ ctk.set_appearance_mode("system")  # Default to system appearance
 ctk.set_default_color_theme("dark-blue")  # You can try "dark-blue" for a more elegant look
 
 app = ctk.CTk()
-app.title("CuacaNih ⛅")
+app.title("CuacaNih")
 app.geometry("500x700")  # Slightly taller for better spacing
 app.resizable(False, False)
 
