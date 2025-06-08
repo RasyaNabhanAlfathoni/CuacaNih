@@ -193,7 +193,7 @@ header_frame = ctk.CTkFrame(main_container, corner_radius=15,
                            height=80)
 header_frame.pack(fill="x", pady=(0, 15))
 
-title = ctk.CTkLabel(header_frame, text="CuacaNih ⛅", 
+title = ctk.CTkLabel(header_frame, text="CuacaNih⛅", 
                     font=ctk.CTkFont(size=28, weight="bold", family="Segoe UI"),
                     text_color=("#2a5885", "#e6f2ff"))
 title.pack(side="left", padx=20, pady=10)
